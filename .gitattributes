@@ -1,0 +1,6 @@
+* text=auto eol=lf
+*.ipynb linguist-language=Python
+*.nc binary
+*.pt binary
+*.pth binary
+*.ckpt binary

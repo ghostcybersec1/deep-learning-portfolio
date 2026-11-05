@@ -1,0 +1,35 @@
+# Python
+**/.venv/
+**/venv/
+**/__pycache__/
+**/*.py[cod]
+**/*.egg-info/
+**/.pytest_cache/
+**/.ruff_cache/
+**/.mypy_cache/
+**/.coverage
+**/htmlcov/
+**/build/
+**/dist/
+
+# Notebooks and editors
+**/.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store
+
+# Local configuration and credentials
+**/.env
+**/.env.*
+!**/.env.example
+**/*.pem
+**/*.key
+**/credentials*
+
+# Data and generated model artifacts
+**/data/
+**/artifacts/
+**/*.nc
+**/*.pt
+**/*.pth
+**/*.ckpt

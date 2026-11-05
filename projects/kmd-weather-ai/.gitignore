@@ -1,0 +1,35 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+build/
+dist/
+
+# Jupyter and editor state
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*
+
+# Data and generated machine-learning artifacts
+data/
+artifacts/
+*.nc
+*.pt
+*.pth
+*.ckpt
